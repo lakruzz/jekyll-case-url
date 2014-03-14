@@ -35,7 +35,7 @@ Note that the `<a>` tag is preset with the `class="case"` it allows you to do co
 
 Have a look at the css sample provided it will color the link "Jira blue" and tail it with the characteristic Jira joggler. It will render something like this:
 
-![Sample](https://github.com/lakruzz/jekyll-case-url/master/images/case_url.sample.screenshot.png)
+![Sample](https://raw.github.com/lakruzz/jekyll-case-url/master/images/case_url.sample.screenshot.png)
 
 ---
 
