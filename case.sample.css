@@ -1,0 +1,13 @@
+a.case {
+  color: #003366;
+}
+
+a.case:after {
+  content: "";
+  display: inline-block;
+  background: url("/images/jira9x12.png") no-repeat top right;
+  width: 9px;
+  height: 16px;
+  margin: 0 0 0 0;
+  padding 0 0 0 0;
+}

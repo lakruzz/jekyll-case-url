@@ -19,12 +19,12 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
-      @text = text
+      @text = text.strip
+      @case_path = Jekyll.configuration({})['case_path'] 
     end
  
     def render(context)
-       case_path = Jekyll.configuration({})['case_path']  
-      "<a class=\"case\" href=\"#{case_path}#{@text}\">#{@text}</a>"
+      "<a class=\"case\" href=\"#{@case_path}#{@text}\">#{@text}</a>"
     end
     
   end
